@@ -35,7 +35,9 @@ jobs:
     - name: Exports log and Clean Dead Domains
       run: |
         dead-domains-linter -i $GITHUB_WORKSPACE/domains.txt --export=$GITHUB_WORKSPACE/dead.txt
+        dead-domains-linter -i $GITHUB_WORKSPACE/abpindo-adult.txt --export=$GITHUB_WORKSPACE/abpindo-dead.txt
         dead-domains-linter -i $GITHUB_WORKSPACE/domains.txt --auto
+        dead-domains-linter -i $GITHUB_WORKSPACE/abpindo-adult.txt --auto
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
