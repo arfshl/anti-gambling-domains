@@ -1,3 +1,3 @@
 # Gambling Blocklist
 
-Block local gambling sites at DNS level, compatible with Pi-Hole, AdGuard Home, or Techinitium 
+Already included at [HaGeZi Gambilng filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-)
