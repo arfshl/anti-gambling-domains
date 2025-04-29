@@ -32,8 +32,9 @@ jobs:
     - name: Install dead-domain-linter
       run: |
         npm i -g @adguard/dead-domains-linter
-    - name: Clean Dead Domains
+    - name: Exports log and Clean Dead Domains
       run: |
+        dead-domains-linter -i $GITHUB_WORKSPACE/domains.txt --export=$GITHUB_WORKSPACE/dead.txt
         dead-domains-linter -i $GITHUB_WORKSPACE/domains.txt --auto
     - name: Commit and push changes
       run: |
