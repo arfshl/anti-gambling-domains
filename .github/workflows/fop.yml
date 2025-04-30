@@ -1,4 +1,4 @@
- name: Filter Orderer and Preener
+name: Filter Orderer and Preener
 
 on:
   workflow_dispatch:
