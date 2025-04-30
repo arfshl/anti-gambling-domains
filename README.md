@@ -2,7 +2,7 @@
 
 Already included in:
 
-- [HaGeZi Gambilng filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-) Available at AdGuard DNS and ControlD
+- [HaGeZi Gambilng filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-) Available at AdGuard DNS and ControlD Gambling Category
 
 - [UT1 Blacklist](https://github.com/arfshl/ut1-blacklists)  (Partly, longer updates than Hagezi) Available at NextDNS Gambling Category, RethinkDNS, and dnswarden
 
