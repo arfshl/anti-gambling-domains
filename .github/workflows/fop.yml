@@ -29,5 +29,6 @@ jobs:
         git add .
         git commit -m "Filter Orderer and Preener"
         git push
+      continue-on-error: true
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
