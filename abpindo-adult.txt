@@ -3,7 +3,6 @@
 88togel.com
 actionpoker.com
 afapoker.com
-afapoker.com
 agenjudibolabet.com
 agenjudiresmi.com
 agentogel4d.com
@@ -43,7 +42,6 @@ deltatoto.com
 dewajudionline.com
 dewitogel.com
 dunlop.id
-dunlop.id
 dutatoto.com
 emputogel.com
 europoker.com
@@ -73,8 +71,8 @@ k7poker.com
 kedaijudi.com
 kingtogel.com
 launchpoker.com
-lazacasino.com^$image,third-party
 lazacasino.com
+lazacasino.com^$image,third-party
 lintastogel.com
 lotospoker.com
 luckyriverpoker.com
