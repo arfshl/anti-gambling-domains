@@ -34,7 +34,7 @@ jobs:
       run: |
         mkdir -p abpindo
         curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_thirdparty.txt
-        adblock2plain -o /home/runner/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_thirdparty.txt /home/runner/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt 
+        adblock2plain -o /home/runner/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt /home/runner/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_thirdparty.txt
         rm /home/runner/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
     - name: Commit and push changes
       run: |
