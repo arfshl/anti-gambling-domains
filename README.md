@@ -23,7 +23,7 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 
 [abpindo/indonesianadblockrule](github.com/abpindo/indonesianadblockrules)
 
-[brigslabs/judol](github.com/brigslabs/judol)
+[brigslabs/judol](github.com/BrigsLabs/judol)
 
 [sendaljepitid/defacenotifier-judol](https://github.com/sendaljepitid/DefaceNotifier-judol)
 
