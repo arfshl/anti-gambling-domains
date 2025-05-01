@@ -1,18 +1,24 @@
 name: Convert ABPindo Adult Third-Party
 
+
 on:
   workflow_dispatch:
   schedule:
    - cron: "0 * * * *"
 
+
 permissions:
   contents: write
 
+
 jobs:
+
 
   build:
 
+
     runs-on: ubuntu-latest
+
 
     steps:
     - uses: actions/checkout@v4
@@ -28,8 +34,8 @@ jobs:
       run: |
         mkdir -p abpindo
         curl -O https://github.com/ABPindo/indonesianadblockrules/raw/refs/heads/master/src/adult/adult_thirdparty.txt
-        adblock2plain -o $GITHUB_WORKSPACES/adult_thirdparty.txt $GITHUB_WORKSPACES/abpindo/abpindo_adult_thirdparty.txt
-        rm $GITHUB_WORKSPACES/adult_thirdparty.txt
+        adblock2plain -o /home/runner/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt /home/runner/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_thirdparty.txt
+        rm /home/runner/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
