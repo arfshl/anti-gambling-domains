@@ -5,7 +5,7 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 
 #### Also converts [ABPindo adult_thirdparty](https://github.com/ABPindo/indonesianadblockrules/blob/master/src/adult/adult_thirdparty.txt) for DNS sinkhole software compatibility
 
-#### Already included in:
+#### This list is also reported in:
 
 - [HaGeZi Gambilng filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-) Available at AdGuard DNS and ControlD Gambling Category
 
@@ -26,3 +26,6 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 [brigslabs/judol](github.com/brigslabs/judol)
 
 [sendaljepitid/defacenotifier-judol](https://github.com/sendaljepitid/DefaceNotifier-judol)
+
+
+#### We encourage to all Indonesian citizens across github to fight this illegal and harmful activity for indonesian citizens at all aspects (social, economy and morals)
