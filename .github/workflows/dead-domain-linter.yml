@@ -5,8 +5,6 @@ name: Dead domain linter
 
 on:
   workflow_dispatch: 
-#  schedule:
-#    - cron: "0 * * * *"
 
 permissions:
   contents: write
@@ -38,10 +36,8 @@ jobs:
         npm i -g @adguard/dead-domains-linter
     - name: Exports log and Clean Dead Domains
       run: |
-        dead-domains-linter -i $GITHUB_WORKSPACE/domains/domains.txt --export=$GITHUB_WORKSPACE/dead.txt
-        dead-domains-linter -i $GITHUB_WORKSPACE/domains/abpindo-adult.txt --export=$GITHUB_WORKSPACE/abpindo-dead.txt
-        dead-domains-linter -i $GITHUB_WORKSPACE/domains/domains.txt --auto
-        dead-domains-linter -i $GITHUB_WORKSPACE/domains/abpindo-adult.txt --auto
+        dead-domains-linter -i $GITHUB_WORKSPACE/domains.txt --export=$GITHUB_WORKSPACE/dead.txt
+        dead-domains-linter -i $GITHUB_WORKSPACE/domains.txt --auto
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
