@@ -5,11 +5,11 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 
 #### Also converts [ABPindo adult_thirdparty](https://github.com/ABPindo/indonesianadblockrules/blob/master/src/adult/adult_thirdparty.txt) for DNS sinkhole software compatibility
 
-#### This list is also reported in:
+#### Domain in this list also reported in:
 
 - [HaGeZi Gambilng filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-) Available at AdGuard DNS and ControlD Gambling Category
 
-- [UT1 Blacklist](https://github.com/olbat/ut1-blacklists)  (Partly, longer updates than Hagezi) Available at NextDNS Gambling Category, RethinkDNS, and dnswarden
+- [UT1 Blacklist](https://github.com/olbat/ut1-blacklists)  (Longer updates than Hagezi) Available at NextDNS Gambling Category, RethinkDNS, and dnswarden
 
 - [Sinfonietta/hostfiles (Pending)](https://github.com/Sinfonietta/hostfiles)
 
