@@ -17,13 +17,13 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 
 [mbenedictt/judolslayerproject](https://github.com/MBenedictt/JudolSlayerProject)
 
-[alsyundawy/trustpositif](github.com/alsyundawy/trustpositif)
+[alsyundawy/trustpositif](https://github.com/alsyundawy/trustpositif)
 
-[hagezi/dns-blocklists](github.com/hagezi/dns-blocklists)
+[hagezi/dns-blocklists](https://github.com/hagezi/dns-blocklists)
 
-[abpindo/indonesianadblockrule](github.com/abpindo/indonesianadblockrules)
+[abpindo/indonesianadblockrule](https://github.com/abpindo/indonesianadblockrules)
 
-[brigslabs/judol](github.com/BrigsLabs/judol)
+[brigslabs/judol](https://github.com/BrigsLabs/judol)
 
 [sendaljepitid/defacenotifier-judol](https://github.com/sendaljepitid/DefaceNotifier-judol)
 
