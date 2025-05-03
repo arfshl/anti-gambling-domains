@@ -7,7 +7,7 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 
 #### Domain in this list also reported in:
 
-- [HaGeZi Gambilng filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-) Available at AdGuard DNS and ControlD Gambling Category
+- [HaGeZi Gambling filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-) Available at AdGuard DNS and ControlD Gambling Category
 
 - [UT1 Blacklist](https://github.com/olbat/ut1-blacklists)  (Longer updates than Hagezi) Available at NextDNS Gambling Category, RethinkDNS, and dnswarden
 
