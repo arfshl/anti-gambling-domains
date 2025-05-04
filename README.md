@@ -3,7 +3,7 @@
 
 Blocklist for online gambling provider (Judi Online atau Judol) domains that targets Indonesian region based on self exploration on internet, can be used for various DNS sinkhole software such as Pi-Hole and AdGuard Home.
 
-#### Also converts [ABPindo adult_thirdparty](https://github.com/ABPindo/indonesianadblockrules/blob/master/src/adult/adult_thirdparty.txt) for [DNS sinkhole software compatibility](https://github.com/arfshl/anti-gambling-domains/raw/main/abpindo/abpindo_adult_thirdparty.txt)
+#### Also converts [ABPindo adult_thirdparty](https://github.com/ABPindo/indonesianadblockrules/blob/master/src/adult/adult_thirdparty.txt) for [DNS sinkhole software compatibility](https://github.com/arfshl/anti-gambling-domains/raw/main/abpindo/abpindo_adult_thirdparty.txt) , Licensed under different license [(GPLv3)](https://github.com/arfshl/anti-gambling-domains/raw/main/abpindo/gplv3.txt)
 
 #### Domain in this list also reported in:
 
