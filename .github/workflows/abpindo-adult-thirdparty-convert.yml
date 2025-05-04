@@ -48,6 +48,7 @@ jobs:
         curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_thirdparty.txt
         adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_thirdparty.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt 
         rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
+        echo "cds.bet" >> abpindo_adult_thirdparty.txt
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
