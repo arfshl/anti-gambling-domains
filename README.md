@@ -11,7 +11,7 @@ Blocklist for online gambling provider (Judi Online atau Judol) domains that tar
 
 - [UT1 Blacklist](https://github.com/olbat/ut1-blacklists)  (Longer updates than Hagezi) Available at NextDNS Gambling Category, RethinkDNS, and dnswarden
 
-- [Sinfonietta/hostfiles (Pending)](https://github.com/Sinfonietta/hostfiles)
+- [Sinfonietta/hostfiles](https://github.com/Sinfonietta/hostfiles) [(Pending)](https://github.com/Sinfonietta/hostfiles/issues/352)
 
 #### Project that inspires us to make this
 
