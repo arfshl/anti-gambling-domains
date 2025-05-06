@@ -2,7 +2,7 @@
 Daftar domain Judi Online (Judol) yang menargetkan wilayah dan penduduk indonesia
 
 
-#### [Already included](https://github.com/hagezi/dns-blocklists/issues/6139#issuecomment-2850741115) in [HaGeZi's Gambling filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-). Available at AdGuard DNS and ControlD Gambling Category, We recommended to use this  at first place since this aggregate many sources and covered more domains
+#### [Already included](https://github.com/hagezi/dns-blocklists/issues/6139#issuecomment-2850741115) in [HaGeZi's Gambling filters](https://github.com/hagezi/dns-blocklists?tab=readme-ov-file#slot_machine-gambling---protects-against-gambling-content-), Make sure you used the full ones. Available at AdGuard DNS and ControlD Gambling Category, We recommended to use this  at first place since this aggregate many sources and covered more domains
 
 Blocklist for online gambling provider (Judi Online atau Judol) domains that targets Indonesian region based on self exploration on internet, can be used for various DNS sinkhole software such as Pi-Hole and AdGuard Home.
 
