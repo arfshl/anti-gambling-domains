@@ -5,6 +5,8 @@ on:
 
 permissions:
   contents: write
+  schedule:
+   - cron: "0 * * * *"
   
 jobs:
 
