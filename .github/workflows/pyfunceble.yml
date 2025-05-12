@@ -29,6 +29,15 @@ jobs:
       run: |
         rm pyfunceable-output.txt
         pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "ABPindo Update"
+        git push
+      continue-on-error: true
         
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
