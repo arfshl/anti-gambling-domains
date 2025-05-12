@@ -25,7 +25,7 @@ jobs:
 
     - name: Check dead domains, upload the commands output
       run: |
-        rm pyfunceable-output.txt
+        > pyfunceable-output.txt
         pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
 
     - name: Commit and push changes
