@@ -1,36 +1,18 @@
 name: Convert ABPindo Adult Third-Party
 
-
-
-
 on:
   workflow_dispatch:
   schedule:
    - cron: "0 * * * *"
 
-
-
-
 permissions:
   contents: write
 
-
-
-
 jobs:
-
-
-
 
   build:
 
-
-
-
     runs-on: ubuntu-latest
-
-
-
 
     steps:
     - uses: actions/checkout@v4
