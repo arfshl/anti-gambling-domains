@@ -25,9 +25,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyfunceble
 
-    - name: Check dead domains
+    - name: Check dead domains, upload the commands output
       run: |
-        pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt
+        rm pyfunceable-output.txt
+        pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
         
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
