@@ -29,8 +29,6 @@ jobs:
       run: |
         > pyfunceable-output.txt
         pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
-        rm -r /home/runner/work/anti-gambling-domains/anti-gambling-domains/output
-
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
