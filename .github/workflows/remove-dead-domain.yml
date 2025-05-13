@@ -2,8 +2,9 @@ name: Remove dead domains
 
 on:
   workflow_dispatch:
+# Every Monday at 03:00 UTC or 10:00 at GMT+7
   schedule:
-   - cron: "0 * * * *"
+   - cron: "0 3 * * 1"
 
 permissions:
   contents: write
