@@ -28,12 +28,12 @@ jobs:
 
     - name: Check and remove dead domains
       run: |
+        > pyfunceable-output.txt 
+        > dead.txt
         pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
         rm -r /home/runner/work/anti-gambling-domains/anti-gambling-domains/output
         grep "INACTIVE"/home/runner/work/anti-gambling-domains/anti-gambling-domains/pyfunceable-output.txt | awk '{print $1}' > /home/runner/work/anti-gambling-domains/anti-gambling-domains/dead.txt
         grep -v -f dead.txt domains.txt > temp.txt && mv temp.txt domains.txt
-        rm pyfunceable-output.txt dead.txt
-        
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
