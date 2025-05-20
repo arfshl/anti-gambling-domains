@@ -1,7 +1,7 @@
 # Anti-Gambling Domain list
 Daftar domain Judi Online (Judol) yang menargetkan wilayah dan penduduk indonesia
 
-#### Domain Listed: 417
+#### Domain Listed: 428
 
 Blocklist for online gambling provider (Judi Online atau Judol) domains that targets Indonesian region based on self exploration on internet, can be used for various DNS sinkhole software such as Pi-Hole and AdGuard Home or uBlock Origin browser extension
 
