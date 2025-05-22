@@ -10,7 +10,7 @@ Also converts [ABPindo adult_thirdparty](https://github.com/ABPindo/indonesianad
 
 #### Domain in this list also reported in:
 
-- [UT1 Blacklist](https://github.com/olbat/ut1-blacklists)  (Longer updates than Hagezi) Available at NextDNS Gambling Category and RethinkDNS
+- [UT1 Blacklist](https://github.com/olbat/ut1-blacklists)  (Longer updates than Hagezi, no checking, please report if missed) Available at NextDNS Gambling Category and RethinkDNS
 
 - [Sinfonietta/hostfiles](https://github.com/Sinfonietta/hostfiles) [(Pending)](https://github.com/Sinfonietta/hostfiles/issues/352)
 
