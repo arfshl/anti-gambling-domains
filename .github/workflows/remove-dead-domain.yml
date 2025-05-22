@@ -32,8 +32,8 @@ jobs:
         > dead.txt
         pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
         rm -r /home/runner/work/anti-gambling-domains/anti-gambling-domains/output
-        grep "INACTIVE"/home/runner/work/anti-gambling-domains/anti-gambling-domains/pyfunceable-output.txt | awk '{print $1}' > /home/runner/work/anti-gambling-domains/anti-gambling-domains/dead.txt
-        grep "WHOIS"/home/runner/work/anti-gambling-domains/anti-gambling-domains/pyfunceable-output.txt | awk '{print $1}' > /home/runner/work/anti-gambling-domains/anti-gambling-domains/pre-dead.txt
+        grep -i "INACTIVE"/home/runner/work/anti-gambling-domains/anti-gambling-domains/pyfunceable-output.txt | awk '{print $1}' > /home/runner/work/anti-gambling-domains/anti-gambling-domains/dead.txt
+        grep -i "WHOIS"/home/runner/work/anti-gambling-domains/anti-gambling-domains/pyfunceable-output.txt | awk '{print $1}' > /home/runner/work/anti-gambling-domains/anti-gambling-domains/pre-dead.txt
         grep -v -f dead.txt domains.txt > temp.txt && mv temp.txt domains.txt
     - name: Commit and push changes
       run: |
