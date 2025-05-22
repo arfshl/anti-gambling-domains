@@ -28,7 +28,7 @@ jobs:
 
     - name: Check and remove dead domains
       run: |
-        > pyfunceable-output.txt 
+        # > pyfunceable-output.txt 
         > dead.txt
         # pyfunceble -f /home/runner/work/anti-gambling-domains/anti-gambling-domains/domains.txt >> pyfunceable-output.txt
         # rm -r /home/runner/work/anti-gambling-domains/anti-gambling-domains/output
