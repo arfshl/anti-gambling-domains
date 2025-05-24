@@ -28,17 +28,17 @@ jobs:
       run: |
         mkdir -p abpindo
         curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_thirdparty.txt
-        curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_pranks.txt
+        curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_prank.txt
         curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_specific_block.txt
         curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_specific_hide.txt
         adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_thirdparty.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
-        adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_pranks.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_pranks.txt
+        adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_prank.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_pranks.txt
         adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_specific_block.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_block.txt
         adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindoadult_specific_hide.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_hide.txt
         rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_hide.txt
         rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_block.txt
         rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
-        rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_pranks.txt
+        rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_prank.txt
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
