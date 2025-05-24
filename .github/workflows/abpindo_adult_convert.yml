@@ -1,0 +1,51 @@
+name: Convert ABPindo Adult
+
+on:
+  workflow_dispatch:
+  schedule:
+   - cron: "0 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install python-abp adblock-decoder
+    - name: Fetch and Convert
+      run: |
+        mkdir -p abpindo
+        curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_thirdparty.txt
+        curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_pranks.txt
+        curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_specific_block.txt
+        curl -O https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/refs/heads/master/src/adult/adult_specific_hide.txt
+        adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_thirdparty.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
+        adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_pranks.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_pranks.txt
+        adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindo_adult_specific_block.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_block.txt
+        adblock2plain -o /home/runner/work/anti-gambling-domains/anti-gambling-domains/abpindo/abpindoadult_specific_hide.txt /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_hide.txt
+        rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_hide.txt
+        rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_specific_block.txt
+        rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_thirdparty.txt
+        rm /home/runner/work/anti-gambling-domains/anti-gambling-domains/adult_pranks.txt
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "ABPindo Update"
+        git push
+      continue-on-error: true
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
