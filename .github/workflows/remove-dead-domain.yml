@@ -24,7 +24,7 @@ jobs:
     - name: Install PyFunceble
       run: |
         python -m pip install --upgrade pip
-        pip install pyfunceble
+        pip3 install --user pyfunceble[all]
 
     - name: Check and remove dead domains
       run: |
