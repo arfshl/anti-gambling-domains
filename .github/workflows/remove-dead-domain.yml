@@ -5,6 +5,9 @@ on:
 # Every Saturday at 03:00 UTC or 10:00 at GMT+7
   schedule:
    - cron: "0 3 * * 6"
+  push:
+    paths:
+      - .github/workflows/remove-dead-domains.yml
 
 permissions:
   contents: write
@@ -23,8 +26,8 @@ jobs:
         python-version: "3.12"
     - name: Install PyFunceble
       run: |
-        python -m pip install --upgrade pip
-        pip install pyfunceble
+        python3 -m pip install --upgrade pip
+        pip3 install --user pyfunceble[full]
 
     - name: Check and remove dead domains
       run: |
