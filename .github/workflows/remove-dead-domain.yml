@@ -5,6 +5,9 @@ on:
 # Every Saturday at 03:00 UTC or 10:00 at GMT+7
   schedule:
    - cron: "0 3 * * 6"
+  push:
+    paths:
+      - .github/workflows/remove-dead-domains.yml
 
 permissions:
   contents: write
