@@ -23,8 +23,8 @@ jobs:
         python-version: "3.12"
     - name: Install PyFunceble
       run: |
-        python -m pip install --upgrade pip
-        pip install pyfunceble
+        python3 -m pip install --upgrade pip
+        pip3 install --user pyfunceble[full]
 
     - name: Check and remove dead domains
       run: |
