@@ -7,7 +7,7 @@ on:
    - cron: "0 3 * * 6"
   push:
     paths:
-      - .github/workflows/remove-dead-domains.yml
+      - .github/workflows/remove-dead-domain.yml
 
 permissions:
   contents: write
