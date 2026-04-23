@@ -23,8 +23,9 @@ jobs:
       uses: actions/setup-python@v6
       with:
         python-version: "3.x"
-    - name: Run Scripts
+    - name: Convert URLs to Domain
       run: |
+        pip install tldextract
         cat raw.txt | python3 scripts/url-to-domain.py | sort -u > domains.txt
         > raw.txt
     - name: Commit and push changes
