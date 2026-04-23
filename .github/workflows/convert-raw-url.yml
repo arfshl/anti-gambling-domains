@@ -1,0 +1,39 @@
+name: Convert raw URLs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'raw.txt'
+
+permissions:
+  contents: write
+
+jobs:
+
+  convert:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.x"
+    - name: Run Scripts
+      run: |
+        cat raw.txt | python3 scripts/url-to-domain.py | sort -u > domains.txt
+        > raw.txt
+    - name: Commit and push changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Converted raw URLs"
+        git push
+
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
