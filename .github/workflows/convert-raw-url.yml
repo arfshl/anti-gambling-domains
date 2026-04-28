@@ -6,7 +6,8 @@ on:
     branches:
       - 'main'
     paths:
-      - 'raw.txt'
+      - 'raw-domain.txt'
+      - 'raw-subdomain.txt'
 
 permissions:
   contents: write
@@ -26,8 +27,10 @@ jobs:
     - name: Convert URLs to Domain, then sort with fop.py
       run: |
         pip install tldextract
-        cat raw.txt | python3 scripts/url-to-domain.py | sort -u >> domains.txt
-        > raw.txt
+        cat raw-domain.txt | python3 scripts/url-to-domain.py | sort -u >> domains.txt
+        cat raw-subdomain.txt | python3 scripts/url-to-domain-subdomain.py | sort -u >> domains.txt
+        > raw-domain.txt
+        > raw-subdomain.txt
         python3 scripts/fop.py
     - name: Commit and push changes
       run: |
