@@ -29,6 +29,7 @@ abutogelbrand.com                                                               
 abutogelbrand.com                                                                                    ACTIVE      WHOIS
 ACTIVE      100%         29
 ACTIVE      100%         520
+ACTIVE      100%         531
 ACTIVE      100%         532
 ACTIVE      98%          484
 ACTIVE      98%          522
@@ -167,6 +168,7 @@ cdn.korte.ca                                                                    
 cdn.synctv.com                                                                                       ACTIVE      DNSLOOKUP
 cdsindia.org                                                                                         ACTIVE      DNSLOOKUP
 cdsindia.org                                                                                         ACTIVE      WHOIS
+cengkram-elang188.store                                                                              ACTIVE      DNSLOOKUP
 cengkram-elang188.store                                                                              ACTIVE      WHOIS
 cgine2024.org                                                                                        ACTIVE      DNSLOOKUP
 cgine2024.org                                                                                        ACTIVE      WHOIS
@@ -294,6 +296,7 @@ euindiathinktanks.com                                                           
 euindiathinktanks.com                                                                                ACTIVE      WHOIS
 evesica.com                                                                                          ACTIVE      DNSLOOKUP
 evesica.com                                                                                          ACTIVE      WHOIS
+exaberkicau.online                                                                                   ACTIVE      WHOIS
 exbet66.com                                                                                          ACTIVE      DNSLOOKUP
 exbet66.com                                                                                          ACTIVE      WHOIS
 excelcropcare.com                                                                                    ACTIVE      DNSLOOKUP
@@ -319,6 +322,7 @@ fivestarsalesandservice.com                                                     
 friscofumc.org                                                                                       ACTIVE      DNSLOOKUP
 friscofumc.org                                                                                       ACTIVE      WHOIS
 fufuslot-pair.bond                                                                                   ACTIVE      WHOIS
+funkopi.it.com                                                                                       ACTIVE      DNSLOOKUP
 funktionalley.com                                                                                    ACTIVE      DNSLOOKUP
 funktionalley.com                                                                                    ACTIVE      WHOIS
 fusototo.com                                                                                         ACTIVE      DNSLOOKUP
@@ -328,6 +332,7 @@ fyshbg.com                                                                      
 gacor.oborgamingplus.com                                                                             ACTIVE      DNSLOOKUP
 gacor305.com                                                                                         ACTIVE      DNSLOOKUP
 gacor305.com                                                                                         ACTIVE      WHOIS
+gacorhoky306jp.live                                                                                  ACTIVE      DNSLOOKUP
 gacorzsate.com                                                                                       ACTIVE      DNSLOOKUP
 gacorzsate.com                                                                                       ACTIVE      WHOIS
 garuda138.amp-gg.com                                                                                 ACTIVE      DNSLOOKUP
@@ -372,6 +377,7 @@ hajitototogelonline.com                                                         
 hajitototogelonline.com                                                                              ACTIVE      WHOIS
 hannahbelcher.com                                                                                    ACTIVE      DNSLOOKUP
 hannahbelcher.com                                                                                    ACTIVE      WHOIS
+hannahbelcher.com                                                                                    INACTIVE    STDLOOKUP
 hao788.net                                                                                           ACTIVE      DNSLOOKUP
 hao788.net                                                                                           ACTIVE      WHOIS
 hao788nz.com                                                                                         ACTIVE      DNSLOOKUP
@@ -391,6 +397,7 @@ hokiforfun.com                                                                  
 hokiforfun.com                                                                                       ACTIVE      WHOIS
 hokirajaice.xyz                                                                                      ACTIVE      DNSLOOKUP
 hokirajaice.xyz                                                                                      ACTIVE      WHOIS
+homebet88oqxjp.site                                                                                  ACTIVE      WHOIS
 hondaorient.com                                                                                      ACTIVE      DNSLOOKUP
 hondaorient.com                                                                                      ACTIVE      WHOIS
 hore123.site                                                                                         ACTIVE      DNSLOOKUP
@@ -470,6 +477,7 @@ kaisarlangit33max.com                                                           
 kamu-jangan-ma.link                                                                                  ACTIVE      WHOIS
 kangtotolaju.com                                                                                     ACTIVE      DNSLOOKUP
 kangtotolaju.com                                                                                     ACTIVE      WHOIS
+kapakbasah.vip                                                                                       ACTIVE      DNSLOOKUP
 karanarising.org                                                                                     ACTIVE      DNSLOOKUP
 karanarising.org                                                                                     ACTIVE      WHOIS
 kartumember1.com                                                                                     INACTIVE    STDLOOKUP
@@ -492,6 +500,7 @@ kipastop.icu                                                                    
 kipastop.icu                                                                                         ACTIVE      WHOIS
 koinaga88m.com                                                                                       ACTIVE      DNSLOOKUP
 koinaga88m.com                                                                                       ACTIVE      WHOIS
+koinaga88m.com                                                                                       INACTIVE    STDLOOKUP
 kopi77.id                                                                                            ACTIVE      DNSLOOKUP
 kopi77.id                                                                                            ACTIVE      WHOIS
 kopi77asli.com                                                                                       ACTIVE      DNSLOOKUP
@@ -554,6 +563,7 @@ lukic.io                                                                        
 lukic.io                                                                                             ACTIVE      WHOIS
 mabok88cd.com                                                                                        ACTIVE      DNSLOOKUP
 mabok88cd.com                                                                                        ACTIVE      WHOIS
+mabukwin266.com                                                                                      ACTIVE      DNSLOOKUP
 mahjong22.com                                                                                        ACTIVE      DNSLOOKUP
 mahjong22.com                                                                                        ACTIVE      WHOIS
 mahjong22.net                                                                                        ACTIVE      DNSLOOKUP
@@ -561,6 +571,7 @@ mahjong22.net                                                                   
 mahjong22.vip                                                                                        ACTIVE      DNSLOOKUP
 mahjong22.vip                                                                                        ACTIVE      WHOIS
 mahjongjp88.is                                                                                       ACTIVE      WHOIS
+mahjongjp88.live                                                                                     ACTIVE      DNSLOOKUP
 mahjongjp88.online                                                                                   ACTIVE      DNSLOOKUP
 mahjongjp88.online                                                                                   ACTIVE      WHOIS
 mainsbsl.com                                                                                         ACTIVE      DNSLOOKUP
@@ -578,6 +589,7 @@ mas4d910.com                                                                    
 mas4d910.com                                                                                         INACTIVE    STDLOOKUP
 mas4dio.com                                                                                          ACTIVE      DNSLOOKUP
 mas4dio.com                                                                                          ACTIVE      WHOIS
+masterbisa.com                                                                                       ACTIVE      DNSLOOKUP
 maxwin138ln.vercel.app                                                                               ACTIVE      DNSLOOKUP
 mba66jom.com                                                                                         ACTIVE      DNSLOOKUP
 mba66jom.com                                                                                         ACTIVE      WHOIS
@@ -753,6 +765,7 @@ puri119.xyz                                                                     
 puri119.xyz                                                                                          ACTIVE      WHOIS
 pusatjpunsurtoto.com                                                                                 ACTIVE      DNSLOOKUP
 pusatjpunsurtoto.com                                                                                 ACTIVE      WHOIS
+pushtheslot777.sbs                                                                                   ACTIVE      DNSLOOKUP
 pushtheslot777.sbs                                                                                   ACTIVE      WHOIS
 pwa.wrestlingx.net                                                                                   ACTIVE      DNSLOOKUP
 q8pskny0tyxem6vksoz5.hujanvisa.com                                                                   ACTIVE      DNSLOOKUP
@@ -765,6 +778,7 @@ rajabandot74.com                                                                
 rajabandot74.com                                                                                     ACTIVE      WHOIS
 rajacun.space                                                                                        ACTIVE      DNSLOOKUP
 rajacun.space                                                                                        ACTIVE      WHOIS
+rajadewa138.com                                                                                      ACTIVE      DNSLOOKUP
 rajapadang.com                                                                                       ACTIVE      DNSLOOKUP
 rajapadang.com                                                                                       ACTIVE      WHOIS
 rajatogel.org                                                                                        ACTIVE      DNSLOOKUP
@@ -858,6 +872,7 @@ stay-humble-eh.b-cdn.net                                                        
 suara4dgas.com                                                                                       ACTIVE      DNSLOOKUP
 suara4dgas.com                                                                                       ACTIVE      WHOIS
 Subject                                                                                              Status      Source
+sugih4d.games                                                                                        ACTIVE      DNSLOOKUP
 sukaslot88light.xyz                                                                                  ACTIVE      DNSLOOKUP
 sukaslot88light.xyz                                                                                  ACTIVE      WHOIS
 superrugbyfixtures.com                                                                               ACTIVE      DNSLOOKUP
@@ -868,6 +883,7 @@ sushicapitol.com                                                                
 sushicapitol.com                                                                                     ACTIVE      WHOIS
 svcbmf2024.com                                                                                       ACTIVE      DNSLOOKUP
 svcbmf2024.com                                                                                       ACTIVE      WHOIS
+tangandewamerah.store                                                                                ACTIVE      DNSLOOKUP
 tangandewamerah.store                                                                                ACTIVE      WHOIS
 teamaretuza.com                                                                                      ACTIVE      DNSLOOKUP
 teamaretuza.com                                                                                      ACTIVE      WHOIS
@@ -938,6 +954,7 @@ transcanadamotorsport.com                                                       
 transcanadamotorsport.com                                                                            ACTIVE      WHOIS
 trentonsocial.net                                                                                    ACTIVE      DNSLOOKUP
 trentonsocial.net                                                                                    ACTIVE      WHOIS
+tri7bet-news1.site                                                                                   ACTIVE      WHOIS
 tribuntogel.bet                                                                                      ACTIVE      DNSLOOKUP
 trucksimulatorultimateplay.com                                                                       ACTIVE      DNSLOOKUP
 trucksimulatorultimateplay.com                                                                       ACTIVE      WHOIS
@@ -967,6 +984,7 @@ ulti111.com                                                                     
 ulti700-yuk.pages.dev                                                                                ACTIVE      DNSLOOKUP
 ulti700slot.com                                                                                      ACTIVE      DNSLOOKUP
 ulti700slot.com                                                                                      ACTIVE      WHOIS
+ulti700x.store                                                                                       ACTIVE      DNSLOOKUP
 ulti700x.store                                                                                       ACTIVE      WHOIS
 uncorkednb.com                                                                                       ACTIVE      DNSLOOKUP
 uncorkednb.com                                                                                       ACTIVE      WHOIS
