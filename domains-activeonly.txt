@@ -60,7 +60,6 @@ pub-0e644d26f2dd48cfbb4129c8dd51e9c9.r2.dev
 pub-59f297a4bea44d4093bdd4bb9c7feb06.r2.dev
 pub-79b7fbba87c04f4489bc2e0dd3bfd753.r2.dev
 pwa.wrestlingx.net
-rajadewa138.com
 resto-akitaca.pages.dev
 rgv-employmentlawyer.b-cdn.net
 rtp9naga.s3.us-east-1.wasabisys.com
