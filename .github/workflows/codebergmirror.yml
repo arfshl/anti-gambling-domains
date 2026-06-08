@@ -1,12 +1,12 @@
 name: Mirror to Codeberg
 
 on:
-  push:
-    branches:
-      - '**'
-    tags:
-      - '**'
-
+  workflow_run:
+    workflows:
+      - "Remove dead domains"
+      - "Convert raw URLs"
+    types:
+      - completed
 jobs:
   mirror:
     runs-on: ubuntu-latest
