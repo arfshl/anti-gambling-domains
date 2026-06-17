@@ -1,0 +1,29 @@
+name: keepalive
+
+on:
+  workflow_dispatch: 
+  schedule:
+    - cron: "0 0 * * 0"
+  
+  
+permissions:
+  contents: write
+
+jobs:
+
+  keepalive:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Keepalive - Update Dummy Timestamp
+      run: |
+        date "+%d%m%y" > keepalive
+        
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        
+        git add keepalive.txt
+        git commit -m "chore: automated keepalive [$(date '+%Y-%m-%d')]" || true
+        git push
