@@ -3,6 +3,7 @@
 1121shib.org                                                                                         ACTIVE      DNSLOOKUP
 1121shib.org                                                                                         ACTIVE      WHOIS
 234togelone.com                                                                                      ACTIVE      DNSLOOKUP
+234togelone.com                                                                                      ACTIVE      HTTP CODE
 234togelone.com                                                                                      ACTIVE      NETINFO
 234togelone.com                                                                                      ACTIVE      WHOIS
 33pgxyz33007890055.shop                                                                              ACTIVE      DNSLOOKUP
@@ -39,6 +40,7 @@ ACTIVE      98%          522
 ACTIVE      98%          529
 ACTIVE      98%          538
 ACTIVE      99%          481
+ACTIVE      99%          500
 ACTIVE      99%          503
 ACTIVE      99%          522
 ACTIVE      99%          524
@@ -225,6 +227,7 @@ culturachina.net                                                                
 culturachina.net                                                                                     ACTIVE      WHOIS
 cupidamp4.pages.dev                                                                                  ACTIVE      DNSLOOKUP
 cupidwin.live                                                                                        ACTIVE      DNSLOOKUP
+cupidwin.live                                                                                        INACTIVE    STDLOOKUP
 cupidwin.website                                                                                     ACTIVE      DNSLOOKUP
 cupidwin.website                                                                                     ACTIVE      WHOIS
 cupidwin.website                                                                                     INACTIVE    STDLOOKUP
@@ -683,6 +686,7 @@ megasloto-ampbaru.com                                                           
 megasloto-ampbaru.com                                                                                ACTIVE      WHOIS
 megasloto-asli.top                                                                                   ACTIVE      DNSLOOKUP
 megasloto-asli.top                                                                                   ACTIVE      WHOIS
+megasloto-asli.top                                                                                   INACTIVE    STDLOOKUP
 megaslotonaga.shop                                                                                   ACTIVE      DNSLOOKUP
 megaslotonaga.shop                                                                                   INACTIVE    STDLOOKUP
 melati138.com                                                                                        ACTIVE      DNSLOOKUP
@@ -989,6 +993,7 @@ Status      Percentage   Amount
 stay-humble-eh.b-cdn.net                                                                             ACTIVE      DNSLOOKUP
 suara4dgas.com                                                                                       ACTIVE      DNSLOOKUP
 suara4dgas.com                                                                                       ACTIVE      WHOIS
+suara4dgas.com                                                                                       INACTIVE    STDLOOKUP
 Subject                                                                                              Status      Source
 sugih4d.games                                                                                        ACTIVE      DNSLOOKUP
 sukaslot88light.xyz                                                                                  ACTIVE      DNSLOOKUP
@@ -1075,6 +1080,7 @@ top1visa.com                                                                    
 top1visa.com                                                                                         ACTIVE      WHOIS
 toto100link.com                                                                                      ACTIVE      DNSLOOKUP
 toto100link.com                                                                                      ACTIVE      WHOIS
+toto12akunvviip.store                                                                                ACTIVE      DNSLOOKUP
 toto12akunvviip.store                                                                                ACTIVE      WHOIS
 toto12oslo.com                                                                                       ACTIVE      DNSLOOKUP
 toto12oslo.com                                                                                       ACTIVE      WHOIS
