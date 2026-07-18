@@ -35,7 +35,7 @@ jobs:
     - name: Install fop-rs
       run: |
          npm install -g fop-cli
-    - name: Check and remove dead domains, then sort with fop.py
+    - name: Check and remove dead domains, then sort with fop-rs
       run: |
         pyfunceble -f domains.txt >> pyfunceble-output.txt
         rm -r output
