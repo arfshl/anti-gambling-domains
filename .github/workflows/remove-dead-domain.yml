@@ -28,6 +28,13 @@ jobs:
       run: |
         python3 -m pip install --upgrade pip
         pip3 install --user pyfunceble[full]
+    - name: Set up Node.js
+      uses: actions/setup-node@v7
+      with:
+        node-version: 'lts/*'
+    - name: Install fop-rs
+      run: |
+         npm install -g fop-cli
     - name: Check and remove dead domains, then sort with fop.py
       run: |
         pyfunceble -f domains.txt >> pyfunceble-output.txt
@@ -36,7 +43,7 @@ jobs:
         grep -i "WHOIS" pyfunceble-output.txt | awk '{print $1}' > pre-dead.txt
         grep -v -f dead.txt domains.txt > temp.txt && mv temp.txt domains.txt
         grep -v -f pre-dead.txt domains.txt > domains-activeonly.txt
-        python3 scripts/fop.py
+        fop -n .
     - name: Commit and push changes
       run: |
         git config user.name "github-actions[bot]"
